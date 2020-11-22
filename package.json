@@ -1,5 +1,5 @@
 {
-  "name": "newman-slack-reporter",
+  "name": "newman-reporter-slack-extended",
   "version": "1.0.0",
   "description": "Reporting to slack with a custom message",
   "main": "index.js",
