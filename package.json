@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildrun": "npm pack && npm install -g .\\newman-reporter-slack-extended-1.0.4.tgz && newman run \".\\dontcheckin\\Account Management API.postman_collection.json\" -e \".\\dontcheckin\\TEST - NB.postman_environment.json\" -r slack-extended > ../output.txt"
+
+    "buildrun": "npm pack && npm install -g .\\newman-reporter-slack-extended-1.0.4.tgz && newman run .\\examples\\PokeAPI.postman_collection.json -r slack-extended > output.txt"
   },
   "repository": {
     "type": "git",
